@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #007BFF;
+}
+
+.about-section {
+    padding-top: 80px; 
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.about-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+.about-section .about-photo {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.about-section .content {
+    width: 50%;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
